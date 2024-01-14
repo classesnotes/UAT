@@ -1,6 +1,6 @@
 const fs = require('fs');
 
-const requestHandler = (ram, shayam) => {
+const requestHandler = (req,res) => {
 
   const url = req.url;
   const method = req.method;
